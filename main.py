@@ -70,7 +70,7 @@ df = df[
 ]
 
 df.to_csv(
-    "PARTICIPANT.csv",
+    "ranked_candidates.csv",
     index=False,
     encoding="utf-8"
 )
