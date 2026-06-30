@@ -8,11 +8,13 @@ with open("data/candidates.jsonl", "r", encoding="utf-8") as f:
         candidate = json.loads(line)
 
         score = 0
+        reasons = []
 
         exp = candidate["profile"]["years_of_experience"]
 
         if 5 <= exp <= 9:
             score += 20
+            reasons.append(f"{exp} years of experience matches target range")
 
         skills = [
             s["name"].lower()
@@ -29,27 +31,49 @@ with open("data/candidates.jsonl", "r", encoding="utf-8") as f:
             "vector"
         ]
 
+        matched = []
+
         for k in ai_keywords:
             if k in skills:
                 score += 10
+                matched.append(k)
+
+        if matched:
+            reasons.append(
+                "Strong skills in " + ", ".join(matched)
+            )
+
+        if not reasons:
+            reasons.append(
+                "Limited match based on current scoring criteria"
+            )
 
         candidates.append({
             "candidate_id": candidate["candidate_id"],
-            "score": score
+            "score": float(score),
+            "reasoning": ". ".join(reasons)
         })
 
 df = pd.DataFrame(candidates)
 
 df = df.sort_values(
-    by="score",
-    ascending=False
+    by=["score", "candidate_id"],
+    ascending=[False, True]
 )
 
-df["rank"] = range(1, len(df)+1)
+df = df.head(100).reset_index(drop=True)
 
-df.head(100).to_csv(
-    "outputs/ranked_candidates.csv",
-    index=False
+df["rank"] = range(1, 101)
+
+df = df[
+    ["candidate_id", "rank", "score", "reasoning"]
+]
+
+# Replace with your actual participant ID
+df.to_csv(
+    "YOUR_PARTICIPANT_ID.csv",
+    index=False,
+    encoding="utf-8"
 )
 
-print("Done")
+print("Submission file generated successfully!")
