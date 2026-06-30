@@ -69,9 +69,8 @@ df = df[
     ["candidate_id", "rank", "score", "reasoning"]
 ]
 
-# Replace with your actual participant ID
 df.to_csv(
-    "YOUR_PARTICIPANT_ID.csv",
+    "PARTICIPANT.csv",
     index=False,
     encoding="utf-8"
 )
