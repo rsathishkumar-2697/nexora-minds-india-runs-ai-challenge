@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0000031,1,50.0,"6.0 years of experience matches target range. Strong skills in machine learning, embeddings, faiss"
+CAND_0000388,2,50.0,"6.0 years of experience matches target range. Strong skills in embeddings, rag, faiss"
+CAND_0000032,3,40.0,"8.1 years of experience matches target range. Strong skills in python, embeddings"
+CAND_0000082,4,40.0,"7.4 years of experience matches target range. Strong skills in embeddings, faiss"
+CAND_0000083,5,40.0,"6.7 years of experience matches target range. Strong skills in rag, faiss"
+CAND_0000097,6,40.0,"5.8 years of experience matches target range. Strong skills in rag, faiss"
+CAND_0000120,7,40.0,"5.7 years of experience matches target range. Strong skills in embeddings, rag"
+CAND_0000389,8,40.0,"5.4 years of experience matches target range. Strong skills in embeddings, faiss"
+CAND_0000014,9,30.0,8.4 years of experience matches target range. Strong skills in faiss
+CAND_0000044,10,30.0,5.7 years of experience matches target range. Strong skills in python
+CAND_0000074,11,30.0,"Strong skills in embeddings, rag, faiss"
+CAND_0000075,12,30.0,5.2 years of experience matches target range. Strong skills in machine learning
+CAND_0000117,13,30.0,7.9 years of experience matches target range. Strong skills in python
+CAND_0000127,14,30.0,6.7 years of experience matches target range. Strong skills in python
+CAND_0000187,15,30.0,6.6 years of experience matches target range. Strong skills in embeddings
+CAND_0000211,16,30.0,5.0 years of experience matches target range. Strong skills in faiss
+CAND_0000212,17,30.0,"Strong skills in embeddings, rag, faiss"
+CAND_0000225,18,30.0,5.0 years of experience matches target range. Strong skills in faiss
+CAND_0000243,19,30.0,5.7 years of experience matches target range. Strong skills in faiss
+CAND_0000313,20,30.0,7.0 years of experience matches target range. Strong skills in rag
+CAND_0000343,21,30.0,6.4 years of experience matches target range. Strong skills in machine learning
+CAND_0000390,22,30.0,6.6 years of experience matches target range. Strong skills in python
+CAND_0000399,23,30.0,"Strong skills in embeddings, rag, faiss"
+CAND_0000410,24,30.0,"Strong skills in embeddings, rag, faiss"
+CAND_0000422,25,30.0,6.3 years of experience matches target range. Strong skills in python
+CAND_0000426,26,30.0,5.9 years of experience matches target range. Strong skills in faiss
+CAND_0000440,27,30.0,7.5 years of experience matches target range. Strong skills in rag
+CAND_0000454,28,30.0,5.8 years of experience matches target range. Strong skills in python
+CAND_0000001,29,20.0,6.9 years of experience matches target range
+CAND_0000006,30,20.0,6.0 years of experience matches target range
+CAND_0000007,31,20.0,5.5 years of experience matches target range
+CAND_0000015,32,20.0,5.4 years of experience matches target range
+CAND_0000016,33,20.0,5.3 years of experience matches target range
+CAND_0000018,34,20.0,6.6 years of experience matches target range
+CAND_0000019,35,20.0,6.5 years of experience matches target range
+CAND_0000020,36,20.0,6.3 years of experience matches target range
+CAND_0000021,37,20.0,"Strong skills in embeddings, faiss"
+CAND_0000024,38,20.0,7.5 years of experience matches target range
+CAND_0000025,39,20.0,7.3 years of experience matches target range
+CAND_0000026,40,20.0,6.8 years of experience matches target range
+CAND_0000029,41,20.0,7.2 years of experience matches target range
+CAND_0000033,42,20.0,8.6 years of experience matches target range
+CAND_0000038,43,20.0,6.7 years of experience matches target range
+CAND_0000042,44,20.0,5.0 years of experience matches target range
+CAND_0000043,45,20.0,8.3 years of experience matches target range
+CAND_0000046,46,20.0,7.8 years of experience matches target range
+CAND_0000051,47,20.0,6.2 years of experience matches target range
+CAND_0000055,48,20.0,7.3 years of experience matches target range
+CAND_0000060,49,20.0,8.0 years of experience matches target range
+CAND_0000061,50,20.0,7.7 years of experience matches target range
+CAND_0000063,51,20.0,5.4 years of experience matches target range
+CAND_0000072,52,20.0,7.0 years of experience matches target range
+CAND_0000077,53,20.0,8.7 years of experience matches target range
+CAND_0000080,54,20.0,8.3 years of experience matches target range
+CAND_0000088,55,20.0,7.6 years of experience matches target range
+CAND_0000093,56,20.0,8.2 years of experience matches target range
+CAND_0000095,57,20.0,6.7 years of experience matches target range
+CAND_0000101,58,20.0,7.0 years of experience matches target range
+CAND_0000104,59,20.0,8.1 years of experience matches target range
+CAND_0000106,60,20.0,6.6 years of experience matches target range
+CAND_0000115,61,20.0,7.8 years of experience matches target range
+CAND_0000116,62,20.0,7.3 years of experience matches target range
+CAND_0000118,63,20.0,7.2 years of experience matches target range
+CAND_0000121,64,20.0,"Strong skills in rag, faiss"
+CAND_0000124,65,20.0,7.6 years of experience matches target range
+CAND_0000125,66,20.0,6.5 years of experience matches target range
+CAND_0000128,67,20.0,8.5 years of experience matches target range
+CAND_0000129,68,20.0,8.0 years of experience matches target range
+CAND_0000130,69,20.0,8.6 years of experience matches target range
+CAND_0000132,70,20.0,7.7 years of experience matches target range
+CAND_0000134,71,20.0,8.6 years of experience matches target range
+CAND_0000135,72,20.0,8.2 years of experience matches target range
+CAND_0000136,73,20.0,6.5 years of experience matches target range
+CAND_0000138,74,20.0,8.3 years of experience matches target range
+CAND_0000139,75,20.0,5.6 years of experience matches target range
+CAND_0000140,76,20.0,8.1 years of experience matches target range
+CAND_0000142,77,20.0,5.1 years of experience matches target range
+CAND_0000143,78,20.0,7.7 years of experience matches target range
+CAND_0000146,79,20.0,6.6 years of experience matches target range
+CAND_0000147,80,20.0,5.2 years of experience matches target range
+CAND_0000150,81,20.0,5.4 years of experience matches target range
+CAND_0000151,82,20.0,6.3 years of experience matches target range
+CAND_0000156,83,20.0,5.5 years of experience matches target range
+CAND_0000160,84,20.0,7.0 years of experience matches target range
+CAND_0000165,85,20.0,6.8 years of experience matches target range
+CAND_0000173,86,20.0,7.9 years of experience matches target range
+CAND_0000178,87,20.0,8.3 years of experience matches target range
+CAND_0000180,88,20.0,8.5 years of experience matches target range
+CAND_0000182,89,20.0,5.5 years of experience matches target range
+CAND_0000185,90,20.0,6.1 years of experience matches target range
+CAND_0000191,91,20.0,5.0 years of experience matches target range
+CAND_0000192,92,20.0,5.1 years of experience matches target range
+CAND_0000193,93,20.0,5.7 years of experience matches target range
+CAND_0000195,94,20.0,5.9 years of experience matches target range
+CAND_0000197,95,20.0,7.2 years of experience matches target range
+CAND_0000198,96,20.0,6.3 years of experience matches target range
+CAND_0000200,97,20.0,"Strong skills in rag, faiss"
+CAND_0000201,98,20.0,"Strong skills in embeddings, rag"
+CAND_0000203,99,20.0,"Strong skills in embeddings, faiss"
+CAND_0000207,100,20.0,5.4 years of experience matches target range
