@@ -8,10 +8,6 @@ AI-powered candidate discovery and ranking system developed for the INDIA.RUNS D
 
 Nexora Minds
 
-## Team ID
-
-[Add Your Team ID Here]
-
 ## Challenge
 
 INDIA.RUNS Data & AI Challenge
